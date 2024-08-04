@@ -9,7 +9,6 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
     "ajv": "^8.17.1",
     "ajv-keywords": "^5.1.0",
     "preline": "^2.4.1",
