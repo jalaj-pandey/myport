@@ -3,9 +3,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import {
   bookswap,
   ideaspotter,
-  
   newsdoze,
-  
   pms,
   textwiz,
 } from "../assets/images/index.js";

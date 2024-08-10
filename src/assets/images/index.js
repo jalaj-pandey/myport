@@ -42,7 +42,6 @@ export {
   Linux_Logo,
   VSCode_Logo,
   Tailwind_Logo,
-  
   Java_Logo,
   C_Logo,
   Node_Logo,
