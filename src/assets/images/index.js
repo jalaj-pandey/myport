@@ -21,6 +21,7 @@ import ideaspotter from "./ideaspotter.png";
 import textwiz from "./textwiz.png";
 import bookswap from "./bookswap.jpg";
 import newsdoze from "./newsdoze.png";
+import shorty from "./shorty.png"
 
 
 
@@ -48,4 +49,5 @@ export {
   Postman_Logo,
   Express_Logo,
   Mongo_Logo,
+  shorty
 };

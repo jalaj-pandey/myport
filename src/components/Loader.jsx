@@ -1,13 +1,13 @@
 import React from "react";
 import "./Loader.css"; 
-import jalaj from "../assets/images/jalaj.png"
+import jalajload from "../assets/images/jalajload.png"
 
 function Loader() {
   return (
     <div className="flex justify-center items-center py-72 max-[426px]:py-50">
       <div className="loader">
         <img
-          src={jalaj} 
+          src={jalajload} 
           alt="Loading"
           className="loader-image"
         />

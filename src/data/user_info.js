@@ -24,6 +24,7 @@ const info = {
             duration: "July 2024 - Present",
             image: "edquest.jpeg",
             descriptions: [
+                "Developed a URL Shortener App",
                 "Developed a single page responsive portfolio",
                 
             ]
