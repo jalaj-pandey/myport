@@ -32,11 +32,11 @@ function EducationAndExperience() {
         }
       }, []);
       const prevSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex === 0 ? user_info.certificates.length - 1 : prevIndex - 1));
+        setCurrentIndex((prevIndex) => (prevIndex === 0 ? (user_info.certificates?.length || 1) - 1 : prevIndex - 1));
       };
-    
+      
       const nextSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex === user_info.certificates.length - 1 ? 0 : prevIndex + 1));
+        setCurrentIndex((prevIndex) => (prevIndex === (user_info.certificates?.length || 1) - 1 ? 0 : prevIndex + 1));
       };
   return (
 <> 
