@@ -6,7 +6,7 @@ function About() {
       <div className="flex gap-6 justify-between items-center max-md:flex-wrap max-xl:justify-center">
         <div className="w-1/2 max-xl:w-full text-left max-xl:text-center">
           <h1 className="custom-alpino-font text-5xl max-md:text-4xl mb-5 ">Hi, I'm Jalaj <span className="animate-wave inline-block">👋</span></h1>
-          <p className="text-3xl max-md:text-lg mb-5 custom-alpino-font">
+          <p className="text-3xl max-md:text-xl mb-5 custom-alpino-font">
           A  <span className="font-semibold text-purple-300"> Mern Stack Developer</span> from Uttarakhand with a passion for building seamless, beautiful, and creative websites. I have hands-on experience with a variety of <span className="font-semibold text-purple-300">programming languages and web technologies</span>, focusing on crafting user-friendly and visually appealing digital experiences.
           </p>
           <br/>
