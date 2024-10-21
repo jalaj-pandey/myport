@@ -212,17 +212,17 @@ function Projects() {
         {/* Card 4 */}
         <div
           className="w-full sm:w-full rounded overflow-hidden shadow-lg hover:shadow-indigo-500 border border-white relative"
-          onMouseOver={() => handleHover(4)}
+          onMouseOver={() => handleHover(2)}
           onMouseLeave={() => setVisible(0)}
         >
           <img
-            className="w-full h-80 object-cover"
-            src={textwiz}
-            alt="Text Manipulative App"
+            className="w-full h-96 object-cover"
+            src={ideaspotter}
+            alt="IdeaSpotter"
           />
           <div
             className={`${
-              visible === 4 || !isLargeScreen
+              visible === 2 || !isLargeScreen
                 ? "absolute flex-col flex justify-end bg-black bg-opacity-45 inset-0 bg-gradient-to-t from-black via-transparent"
                 : "hidden"
             } max-md:from-transparent max-md:static max-md:bg-white w-full`}
@@ -230,11 +230,11 @@ function Projects() {
             <div className="px-4">
               <div className="flex items-center gap-5">
                 <h1 className="font-bold text-xl mb-1 mt-1 text-white max-md:text-black">
-                  TextWiz
+                  IdeaSpotter
                 </h1>
 
                 <a
-                  href="https://jalaj-textwiz.netlify.app/"
+                  href="https://ideaspotter.netlify.app/"
                   className="font-bold text-base mb-1 mt-1 max-md:text-black text-white cursor-pointer hover:scale-110"
                   target="_blank"
                   title="Live Preview"
@@ -244,12 +244,14 @@ function Projects() {
                 </a>
               </div>
               <p className="text-gray-200 max-md:text-gray-600 text-base">
-                An application designed to manipulate and transform text in
-                various ways, offering features such as formatting, case
-                conversion, and text analysis.
+                An application for storing and organizing notes, allowing users
+                to create, edit, and categorize their notes efficiently.
               </p>
             </div>
             <div className="px-4 pt-4 pb-2">
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Javascript
+              </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 HTML
               </span>
@@ -257,7 +259,7 @@ function Projects() {
                 CSS
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Javascript
+                Firebase
               </span>
             </div>
           </div>
@@ -321,19 +323,20 @@ function Projects() {
           
         </div>
         {/* Card 6*/}
+        
         <div
           className="w-full sm:w-full rounded overflow-hidden shadow-lg hover:shadow-indigo-500 border border-white relative"
-          onMouseOver={() => handleHover(2)}
+          onMouseOver={() => handleHover(4)}
           onMouseLeave={() => setVisible(0)}
         >
           <img
             className="w-full h-80 object-cover"
-            src={ideaspotter}
-            alt="IdeaSpotter"
+            src={textwiz}
+            alt="Text Manipulative App"
           />
           <div
             className={`${
-              visible === 2 || !isLargeScreen
+              visible === 4 || !isLargeScreen
                 ? "absolute flex-col flex justify-end bg-black bg-opacity-45 inset-0 bg-gradient-to-t from-black via-transparent"
                 : "hidden"
             } max-md:from-transparent max-md:static max-md:bg-white w-full`}
@@ -341,11 +344,11 @@ function Projects() {
             <div className="px-4">
               <div className="flex items-center gap-5">
                 <h1 className="font-bold text-xl mb-1 mt-1 text-white max-md:text-black">
-                  IdeaSpotter
+                  TextWiz
                 </h1>
 
                 <a
-                  href="https://ideaspotter.netlify.app/"
+                  href="https://jalaj-textwiz.netlify.app/"
                   className="font-bold text-base mb-1 mt-1 max-md:text-black text-white cursor-pointer hover:scale-110"
                   target="_blank"
                   title="Live Preview"
@@ -355,14 +358,12 @@ function Projects() {
                 </a>
               </div>
               <p className="text-gray-200 max-md:text-gray-600 text-base">
-                An application for storing and organizing notes, allowing users
-                to create, edit, and categorize their notes efficiently.
+                An application designed to manipulate and transform text in
+                various ways, offering features such as formatting, case
+                conversion, and text analysis.
               </p>
             </div>
             <div className="px-4 pt-4 pb-2">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Javascript
-              </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 HTML
               </span>
@@ -370,7 +371,7 @@ function Projects() {
                 CSS
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Firebase
+                Javascript
               </span>
             </div>
           </div>
