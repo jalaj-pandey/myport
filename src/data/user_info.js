@@ -21,7 +21,7 @@ const info = {
         {
             position: "Full Stack Developer",
             company: "Edquest",
-            duration: "July 2024 - Present",
+            duration: "Sept 2023 - Present",
             image: "edquest.jpeg",
             descriptions: [
                 "Developed a URL Shortener App",

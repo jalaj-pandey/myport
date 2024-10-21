@@ -24,10 +24,10 @@ function Navbar({sendDataToParent}) {
 
   return (
     <>
-    <div className="flex justify-between items-center pt-8 mb-12 max-md:mb-6 max-md:block">
+    <div className="flex justify-between items-center pt-6 mb-12 max-md:mb-6 max-md:block">
         <div className="title flex justify-between w-full max-[426px]:items-center">     
             <a href="/">
-            <h1 className={`text-3xl max-md:text-xl italic font-bold signature`} onClick={() => handleLinkClick(0)}>&lt; Jalaj Pandey /&gt;</h1>
+            <h1 className={`text-3xl max-md:text-xl italic font-bold custom-alpino-font text-gray-400`} onClick={() => handleLinkClick(0)}>&lt; Jalaj Pandey /&gt;</h1>
             </a>     
           <button className="text-2xl hidden max-md:block" onClick={() => handleMenu()}>{menuOpen ? <IoMdClose /> : <IoMdMenu />}</button>
         </div>

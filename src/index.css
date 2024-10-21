@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'Alpino';
+  src: url('./assets/Alpino-Variable.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+
+.custom-alpino-font {
+  font-family: 'Alpino', 'Helvetica Neue';
+  /* letter-spacing: 0.04em; */
+}
